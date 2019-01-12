@@ -38,13 +38,15 @@ public class IntroActivity extends AppIntro {
         @Override
         public void onSkipPressed(Fragment currentFragment) {
             super.onSkipPressed(currentFragment);
+            Intent intent1 = new Intent(getApplicationContext(), buzzplay.music.claude.buzzplay.loginandregistration.activity.LoginActivity.class);
+            startActivity(intent1);
             finish();
         }
 
         @Override
         public void onDonePressed(Fragment currentFragment) {
             super.onDonePressed(currentFragment);
-            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            Intent intent = new Intent(getApplicationContext(), buzzplay.music.claude.buzzplay.loginandregistration.activity.MainActivity.class);
             startActivity(intent);
             finish();
         }
