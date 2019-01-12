@@ -9,3 +9,13 @@ Create Activity: SplashScreenActivity
 Create Background for splash screen splash_screen_background.xml
 Create Style for Splash Screen
 Set style for SplashScreenActivity in AndroidManifest.xml
+
+
+<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/Screenshot_1547238383.png" width="200" height="400" />
+
+<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/Screenshot_1547238315.png" width="200" height="400" />
+
+<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/Screenshot_1547238320.png" width="200" height="400" />
+
+<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/Screenshot_1547238327.png" width="200" height="400" />
+
