@@ -10,5 +10,6 @@
     <string name="btn_link_to_login">Already registred! Login Me.</string>
     <string name="welcome">Welcome</string>
     <string name="btn_logout">LOGOUT</string>
-    <string name="name">Fullname</string>
+    <string name="name">First name</string>
+    <string name="lastname">Last name</string>
 </resources>
