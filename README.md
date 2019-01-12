@@ -19,3 +19,8 @@ Set style for SplashScreenActivity in AndroidManifest.xml
 
 <img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/Screenshot_1547238327.png" width="200" height="400" />
 
+<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/login.png" width="200" height="400" />
+
+<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/register.png" width="200" height="400" />
+
+<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/success%20login.png" width="200" height="400" />
