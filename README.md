@@ -1,26 +1,27 @@
-# buzzplay-app
-Mobile application for music streaming just like spotify android app but more special
+# Spotify-Clone
+Working Version of Full Stack Spotify Clone build using HTML5, CSS, jQuery/Ajax and PHP.
 
-Step by step make of the app
+Download XAMPP for the respective version of OS from
+https://www.apachefriends.org/index.html.
 
-#Adding a splash screen
+Once XAMPP is installed and lauched:
 
-Create Activity: SplashScreenActivity
-Create Background for splash screen splash_screen_background.xml
-Create Style for Splash Screen
-Set style for SplashScreenActivity in AndroidManifest.xml
+Under the General tab, click Start.
 
+Under the Service tab, click Start on both Apache and MySQL services.
 
-<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/Screenshot_1547238383.png" width="200" height="400" />
+Under the Network tab, click Enable.
 
-<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/Screenshot_1547238315.png" width="200" height="400" />
+(This would start the local server at port 8080 on your machine)
 
-<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/Screenshot_1547238320.png" width="200" height="400" />
+Under the volume tab, click Mount
 
-<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/Screenshot_1547238327.png" width="200" height="400" />
+On the XAMPP virtual machine, click on lampp folder and then htdocs folder. Place the Spotify_Clone folder into the htdocs folder.
 
-<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/login.png" width="200" height="400" />
+Go to http://localhost:8080/phpmyadmin to go into the admin page and click the "New" button on the left side of the screen to create new database. On the right side of the screen under the input for Create database, type in Spotify and then click the "Create" button.
 
-<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/register.png" width="200" height="400" />
+Click on the newly created database "Spotify" on the left side of the screen and go to "Import" on the right side of the screen, locate the file in the git repository called spotifyCreateWholeDatabaseSoFar copy.sql and then click "Go" to import all the SQL instructions for creating the tables and entries for each table in the database.
 
-<img src="https://github.com/Ebaneck/buzzplay-app/blob/master/draft/success%20login.png" width="200" height="400" />
+Now go to http://localhost:8080/Spotify_Clone/register.php to access the registration page, Make sure to register for your own user profile and then log in to the system.
+
+<img width="1680" alt="artist" src="https://user-images.githubusercontent.com/32314110/34497769-e7b7bf1e-efcc-11e7-9267-bf59bf6bf282.png">
